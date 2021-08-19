@@ -7,7 +7,7 @@ function Selection(props){
     }
     return(
         <div className="fix-box" onClick={updateSelectionStyle} style={bgColor}>
-
+            <h2 className="subheading">Selection</h2>
         </div>
     )
 }
